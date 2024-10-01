@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  min-height: 100vh;
+}
+.head{
+  width: 100%;
+  display: flex;
+  background-color: red;
+  height: 20px;
+}
+nav{
+  background-color: rgb(5, 19, 121);
+  height: 60px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav ul{
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+  
+}
+
+nav li{
+  margin-right: 50px;
+}
+
+
+nav a{
+  color: aliceblue;
+  text-decoration: none;
+  line-height: 60px;
+}
